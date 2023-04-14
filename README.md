@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <div style="display: inline_block"><br>
-  <img align="right" alt="thiiagofernando-dartvader" height="800" width="1000" src="https://github.com/thiiagofernando/gerador_stringbuilder/blob/9d19bcacfa461fa4148a62c3bd5eb73c7b186bfd/StringBuilder_Flutter.gif">
+  <img align="right" alt="thiiagofernando-dartvader" height="800" width="1500" src="https://github.com/thiiagofernando/gerador_stringbuilder/blob/9d19bcacfa461fa4148a62c3bd5eb73c7b186bfd/StringBuilder_Flutter.gif">
 </div>
