@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../utils/criar_appendline.dart';
 
 class ElevatedButtonExecutarCustom extends StatelessWidget {
-  final String sql;
+  final TextEditingController sql;
   final String labelBottao;
   final TextEditingController resultadoCtrl;
   const ElevatedButtonExecutarCustom({
@@ -16,7 +16,7 @@ class ElevatedButtonExecutarCustom extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
-        resultadoCtrl.text = criarAppenLine(sql);
+        resultadoCtrl.text = criarAppenLine(sql.text);
       },
       child: Text(
         labelBottao,

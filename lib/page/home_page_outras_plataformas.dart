@@ -35,8 +35,7 @@ class _MyHomeOutrasPlataformasPage extends State<MyHomeOutrasPlataformasPage> {
                 Row(children: [
                   const TextoLabelCustom(label: 'Informe o SQL'),
                   const SizedBox(width: 15),
-                  ElevatedButtonExecutarCustom(
-                      sql: sqlCtrl.text, labelBottao: 'Executar', resultadoCtrl: resultadoCtrl),
+                  ElevatedButtonExecutarCustom(sql: sqlCtrl, labelBottao: 'Executar', resultadoCtrl: resultadoCtrl),
                 ]),
                 const SizedBox(height: 10),
                 TextoAreaCustom(resultadoCtrl: sqlCtrl, somenteLeitura: false),
