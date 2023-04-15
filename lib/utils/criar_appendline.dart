@@ -6,6 +6,5 @@ String criarAppenLine(String sql) {
     var valor = textoComQuebra[i];
     sqlLista.add(' sql.AppendLine("$valor");');
   }
-  var sqlRetorno = sqlLista.join('\n');
-  return sqlRetorno;
+  return sqlLista.join('\n');
 }
